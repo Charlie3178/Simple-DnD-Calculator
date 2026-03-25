@@ -1,5 +1,11 @@
 # Portable D&D Calculator Suite
 
+[![Download Latest Release](https://img.shields.io/github/v/release/Charlie3178/Simple-DnD-Calculator?label=Download%20Latest%20v1.0.0&color=green)](https://github.com/Charlie3178/Simple-DnD-Calculator/releases/latest)
+
+A collection of lightweight, specialized combat calculators for tabletop gaming...
+
+# Portable D&D Calculator Suite
+
 A collection of lightweight, specialized combat calculators for tabletop gaming, bundled into a single portable Windows executable. This suite features a central "Hub" that dynamically loads tools from a local directory, allowing for easy updates and modularity.
 
 ## Features
