@@ -23,7 +23,7 @@ def launch_app(app_name):
 
 
 root = tk.Tk()
-root.title("Quick Calc Hub")
+root.title("DnD Calc Hub")
 root.geometry("300x400")
 
 # Label for the hub
