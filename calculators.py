@@ -35,7 +35,8 @@ tools_dir = get_resource_path("tools")
 if os.path.exists(tools_dir):
     for filename in os.listdir(tools_dir):
         if filename.endswith(".exe") or filename.endswith(".py"):
-            btn = tk.Button(root, text=filename, width=25,
+            display_name = os.path.splitext(filename)[0]
+            btn = tk.Button(root, text=display_name,
                             command=lambda f=filename: launch_app(f))
             btn.pack(pady=5)
 else:

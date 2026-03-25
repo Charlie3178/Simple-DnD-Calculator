@@ -12,9 +12,9 @@ A collection of lightweight, specialized combat calculators for tabletop gaming,
 
 - **Dynamic Hub:** The main launcher (`calculators.py`) automatically scans the `/tools` directory and generates launch buttons for any `.py` or `.exe` files it finds.
 - **Specialized Combat Tools:**
-  - **SimpleWeaponDMG:** Melee attack and damage calculator with color-coded legends for Finesse, Versatile, and Heavy weapon properties.
+  - **MeleeDamage:** Melee attack and damage calculator with color-coded legends for Finesse, Versatile, and Heavy weapon properties.
   - **RangedDamage:** Supports ammunition and thrown weapons with built-in range increment penalties.
-  - **SpellHit3:** A dedicated spell attack utility featuring monster AC lookup and caster-type proficiency scaling.
+  - **SpellHit:** A dedicated spell attack utility featuring monster AC lookup and caster-type proficiency scaling.
 - **Optimized UI:** All tools utilize a 5-column grid layout to maximize information density while minimizing window height.
 - **Portable:** Packaged using PyInstaller to run on Windows without requiring a local Python installation.
 
